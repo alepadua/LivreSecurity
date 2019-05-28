@@ -18,3 +18,12 @@ http://www.opensecurityarchitecture.org/cms/library/patternlandscape/286-sp-016-
 
 Wireless
 http://www.opensecurityarchitecture.org/cms/library/patternlandscape/224-0802pattern006
+
+
+
+Graylog for Everyone
+   []  yum -y update
+   []  yum install java-1.8.0-openjdk -y
+   []  sudo rpm -Uvh https://packages.graylog2.org/repo/packages/graylog-2.4-repository_latest.rpm
+   []  sudo yum install graylog-server
+
